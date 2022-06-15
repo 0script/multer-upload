@@ -1,30 +1,41 @@
 #movie-app
 
 ##Table of content
+
 * [About the project](#about-the-project)
 * [Technologies](#technologies)
 * [Features](#features)
 * [Setup](#setup)
 
 ##About the project
-    Another movie application because it's obvious that there is not enought movie app on the internet . 
+
+Small application that allow the uploading of a single image file with a username.
 
 ##Technologies
-    * HTML 
-    * CSS
-    * JAVA SCRIPT
-    * TMDB API (The Movie DB Api)  
+
+* HTML
+* CSS
+* JAVASCRIPT
+* nodejs
+    * multer
+    * express
 
 ##Features
-	* Display Popular Movie
-	* Display rating and overview of movie
-	* Search for a movie
+	* Handle a multipart form 
+    * The file are saved as in './uploads/username-date-yyyy-mm-dd.extension'
 
 ##Setup
-    * Download the project and open the index.html in your web browser:
 
-	```shell
-            $git clone git@github.com:0script/movie-app.git
-            $cd movie-app/
-            $firefox index.html &
-        ```
+* Download the project and run the server :
+
+```shell
+#download the repo
+$git clone git@github.com:0script/multer-upload.git
+$cd multer-upload/
+#install nodejs and npm
+$sudo apt install nodejs npm
+#install the needed pkg
+$npm install
+#run the server
+$npm test
+```
