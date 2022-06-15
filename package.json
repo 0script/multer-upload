@@ -1,0 +1,15 @@
+{
+  "name": "multer-upload",
+  "version": "1.0.0",
+  "description": "To handle multiform data",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "0script",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~4.16.1",
+    "multer":"*"
+  }
+}
