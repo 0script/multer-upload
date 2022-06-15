@@ -21,8 +21,9 @@ Small application that allow the uploading of a single image file with a usernam
     * express
 
 ##Features
-	* Handle a multipart form 
-    * The file are saved as in './uploads/username-date-yyyy-mm-dd.extension'
+
+* Handle a multipart form 
+* The file are saved as in './uploads/username-date-yyyy-mm-dd.extension'
 
 ##Setup
 
