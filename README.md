@@ -33,6 +33,8 @@ Small application that allow the uploading of a single image file with a usernam
 #download the repo
 $git clone git@github.com:0script/multer-upload.git
 $cd multer-upload/
+#create uploads directory
+$mkdir uploads
 #install nodejs and npm
 $sudo apt install nodejs npm
 #install the needed pkg
